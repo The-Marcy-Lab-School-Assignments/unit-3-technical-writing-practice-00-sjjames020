@@ -45,9 +45,9 @@ function addOne(array) {
 
 addOne(numbers); // passes the array numbers into the fuction.
 
-const numbers = [1, 2, 3, 4, 5];
+const numbers = [1, 2, 3, 4, 5]; // an array of numbers
 
-numbers.forEach((number) => console.log(number + 1));
+numbers.forEach((number) => console.log(number + 1)); // for each element in the array numbers console.log that element + 1
 ```
-
+These functions do the same task but the second function is simplified.
 
