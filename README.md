@@ -29,7 +29,7 @@ console.log(lessThan8(10))  // We pass 10 into the function we created earlier a
 Higher order functions allow us to abstract the details of a script. Abstraction allows us to focus on the what instead of the how. 
 
 ---
-### Notes on Callback functions
+### Notes on higher order methods
 Sometimes we use a function provided to a higher order function to be executed by the higher order function, this is called a callback function. Some examples of higher order methods include the `forEach()` method, `map()` method, and `filter()` method. The f`orEach()` method executes a provided function once for each array element. The `map()` method creates a new array populated with the results of calling a provided function on every element in the calling array. The `filter()` method creates a shallow copy of a portion of a given array, filtered down to just the elements from the given array that pass the test implemented by the provided function.
 
 ### forEach 
